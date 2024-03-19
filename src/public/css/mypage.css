@@ -1,0 +1,263 @@
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.user-name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reservation-likes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.reservation-box {
+    width: 50%;
+}
+
+.r-content {
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px slategrey;
+    margin: 10px auto 15px 30px;
+    width: 75%;
+}
+
+.score-box {
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px slategrey;
+    margin: 10px auto 15px 30px;
+    width: 75%;
+}
+
+.score-ttl {
+    color: white;
+    text-align: center;
+    margin: 2px;
+}
+
+.score-text {
+    color: white;
+    text-align: center;
+}
+
+.reservation-info {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+
+.delete-btn {
+    border: 3px solid white;
+    background-color: blue;
+    color: white;
+    border-radius: 17px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.reservation-table {
+    margin-left: 10px;
+}
+
+table th {
+    padding: 5px 15px 8px 5px;
+    color: white
+}
+
+table td {
+    padding: 5px 15px 8px 5px;
+    color: white;
+}
+
+.up-date {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.up-time {
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.up-number {
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.update-btn {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.update-btn:hover {
+    border: 2px solid white;
+    color: blue;
+    background-color: white;
+}
+
+.like-shops {
+    width: 50%;
+}
+
+.shop-name {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.like-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.like-heart {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    width: 35px;
+    appearance: none;
+    margin-right: 7px;
+    color: red;
+}
+
+.unlike-heart {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    width: 35px;
+    appearance: none;
+    margin-right: 7px;
+    color: gray;
+}
+
+.likes {
+    width: 40%;
+    border-radius: 6px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px lightslategray;
+}
+
+.detail-heart {
+    display: flex;
+    justify-content: space-between
+}
+
+.shop-d {
+    border-radius: 5px;
+    color: white;
+    background-color: Blue;
+    margin: 7px;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.content-title {
+    color: black;
+    margin: 10px auto 20px 30px;
+    font-size: 18px;
+}
+
+.input-score {
+    border: 1px solid blue;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+.input-comment {
+    border: 1px solid blue;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.score-btn {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.score-btn:hover {
+    border: 2px solid white;
+    color: blue;
+    background-color: white;
+}
+
+.vali {
+    color: white;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .reservation-box {
+        width: 100%;
+    }
+
+    .r-content {
+        border: 1px solid blue;
+        background-color: blue;
+        border-radius: 6px;
+        box-shadow: 2px 2px 2px slategrey;
+        margin: 10px auto;
+        width: 75%;
+    }
+
+    .score-box {
+        margin: 10px auto;
+    }
+
+    .like-shops {
+        width: 100%;
+    }
+
+    .likes {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .r-content {
+        border: 1px solid blue;
+        background-color: blue;
+        border-radius: 6px;
+        box-shadow: 2px 2px 2px slategrey;
+        margin: 10px auto;
+        width: 90%;
+    }
+
+    .score-box {
+        margin: 10px auto;
+        width: 90%;
+    }
+}

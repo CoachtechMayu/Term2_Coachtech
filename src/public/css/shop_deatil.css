@@ -1,0 +1,151 @@
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.shop-info {
+    width: 48%;
+}
+
+.shop-ttl {
+    display: flex;
+    margin: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.back {
+    text-decoration: none;
+    margin-right: 6px;
+    padding: 3px 4px;
+    background-color: white;
+    box-shadow: 2px 2px 2px slategray;
+    border-radius: 6px;
+}
+
+.shop-name {
+    color: black;
+    font-size: 20px;
+}
+
+p {
+    margin: 7px;
+}
+
+.area_genre {
+    margin: 5px;
+}
+
+.shop-detail {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.reservation {
+    border-radius: 6px;
+    background-color: #3d6af0;
+    width: 50%;
+    position: relative;
+}
+
+.r-ttl {
+    color: white;
+    margin: 13px;
+    font-size: 18px;
+}
+
+input {
+    display: block;
+    margin: 6px 0 6px 10px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+select {
+    display: block;
+    margin: 6px 0 6px 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.reservation-info {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid CornflowerBlue;
+    border-radius: 6px;
+    background-color: CornflowerBlue;
+}
+
+table th {
+    color: white;
+    margin: 3px;
+    padding: 7px;
+}
+
+table td {
+    color: white;
+}
+
+.r-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.reservation-btn {
+    cursor: pointer;
+    background-color: blue;
+    padding: 5px 190px 3px 180px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 0 0 6px 6px;
+}
+
+.vali {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .shop-info {
+        width: 100%;
+    }
+
+    .reservation {
+        border-radius: 6px;
+        background-color: #3d6af0;
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .reservation-btn {
+        cursor: pointer;
+        background-color: blue;
+        padding: 5px 260px 3px 290px;
+        color: white;
+        border: 1px solid blue;
+        border-radius: 0 0 6px 6px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .reservation-btn {
+        cursor: pointer;
+        background-color: blue;
+        padding: 5px 125px 3px 135px;
+        color: white;
+        border: 1px solid blue;
+        border-radius: 0 0 6px 6px;
+    }
+}
