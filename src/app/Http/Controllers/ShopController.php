@@ -7,6 +7,8 @@ use App\Models\Shop;
 use App\Models\Area;
 use App\Models\Genre;
 use App\Models\Like;
+use App\Models\User;
+//use App\Models\Reservation;
 use Illuminate\Support\Facades\Auth;
 
 class ShopController extends Controller
@@ -47,6 +49,6 @@ class ShopController extends Controller
 
         $shops = $query->get();
 
-        return view('shop_all', ['shops' => $shops]);
+        return view('shop', ['shops' => $shops]);
     }
 }

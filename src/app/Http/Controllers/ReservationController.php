@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Auth;/* 認証しているユーザーを取得 *
 
 class ReservationController extends Controller
 {
-    /* 予約完了画面 */
     public function done(Request $request)
     {
         return view('done');
@@ -22,8 +21,8 @@ class ReservationController extends Controller
     {
         /* 予約テーブルへ保存 */
         Reservation::create([
-            'shop_id' => $request->shop_id,
             'user_id' => Auth::id(),
+            'shop_id' => $request->shop_id,
             'date' => $request->date,
             'time' => $request->time,
             'number' => $request->number,

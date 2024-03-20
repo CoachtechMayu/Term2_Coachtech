@@ -32,7 +32,7 @@
             <span class="menu__line--middle"></span>
             <span class="menu__line--bottom"></span>
         </div>
-        <div class="rese-ttl">
+        <div class="rese">
             <h2>Rese</h2>
         </div>
         </div>
@@ -41,6 +41,7 @@
     <main class="content">
         @yield('content')
     </main>
+        <!-- js埋め込み -->
         <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

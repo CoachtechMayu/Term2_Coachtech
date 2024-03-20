@@ -12,7 +12,7 @@ register
 
 @section('content')
 <div class="register-box">
-    <div class="r-ttl">
+    <div class="registration">
     <p>Registration</p>
     </div>
     <div class="r-form">
@@ -21,17 +21,17 @@ register
         <i class="fa-solid fa-user"></i>
         <input type="text" name="name" placeholder="Username"><br>
             @if ($errors->has('name'))
-            <p class="vali">{{$errors->first('name')}}</p>
+            <p class="validation">{{$errors->first('name')}}</p>
             @endif
         <i class="fa-solid fa-envelope"></i>
         <input type="text" name="email" placeholder="Email"><br>
             @if ($errors->has('email'))
-            <p class="vali">{{$errors->first('email')}}</p>
+            <p class="validation">{{$errors->first('email')}}</p>
             @endif
         <i class="fa-solid fa-lock"></i>
         <input type="text" name="password" placeholder="Password"><br>
             @if ($errors->has('password'))
-            <p class="vali">{{$errors->first('password')}}</p>
+            <p class="validation">{{$errors->first('password')}}</p>
             @endif
         <div class="register-btn">
             <button type="submit" class="r-btn">登録</button>

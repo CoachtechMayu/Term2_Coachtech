@@ -17,7 +17,7 @@ body {
     background-color: white;
 }
 
-.r-ttl {
+.registration {
     background-color: #1666e9;
     padding: 15px;
     border-radius: 6px 6px 0 0;
@@ -31,11 +31,6 @@ p {
 .r-form {
     text-align: center;
     margin-top: 10px;
-}
-
-.icon-img {
-    margin: 3px;
-    width: 8%;
 }
 
 input {

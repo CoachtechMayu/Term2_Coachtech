@@ -23,9 +23,11 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/shop/like', [LikeController::class, 'like'])->name('shop.like');
     Route::get('/shop/unlike', [LikeController::class, 'unlike'])->name('shop.unlike');
     /* 予約管理 */
-    Route::get('/done', [ReservationController::class, 'done']);
     Route::post('/reservation', [ReservationController::class, 'store']);
+    Route::get('/done', [ReservationController::class, 'done']);
+    /* 予約消去 */
     Route::get('/reservation/{reservation_id}', [ReservationController::class, 'destroy'])->name('delete');
+    /* 予約更新 */
     Route::post('/reservation/update', [ReservationController::class, 'update'])->name('update');
 
 });

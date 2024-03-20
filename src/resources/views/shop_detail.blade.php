@@ -26,10 +26,12 @@ shop_detail
         @csrf
         <input type="hidden" name="shop_id" value="{{$shop->id}}">
         <div class="r-input">
+            <!-- 日付 -->
             <input type="date" name="date" id="input_date" class="input-date" />
             @if ($errors->has('date'))
-                <p class="vali">{{$errors->first('date')}}</p>
+                <p class="validation">{{$errors->first('date')}}</p>
             @endif
+            <!-- 時間 -->
             <select id="input_time" name="time">
             <option value="17:00:00">17:00</option>
             <option value="17:30:00">17:30</option>
@@ -44,6 +46,7 @@ shop_detail
             @if ($errors->has('time'))
                 <p class="vali">{{$errors->first('time')}}</p>
             @endif
+            <!-- 人数 -->
             <select id="input_number" name="number">
             <option value="1">1人</option>
             <option value="2">2人</option>
