@@ -56,10 +56,10 @@ Visual Studio Code
 
 ![table1](https://github.com/CoachtechMayu/Term2_Coachtech/assets/132903155/e1c110b6-02ad-483e-b983-970a66a466a1)
 
-![table2](https://github.com/CoachtechMayu/Term2_Coachtech/assets/132903155/02f61226-e348-433d-9c89-333b5688e134)
+![table2_2](https://github.com/CoachtechMayu/Term2_Coachtech/assets/132903155/e780a43d-20cf-45ab-ad50-3f6bfbb40302)
 
 ![table3](https://github.com/CoachtechMayu/Term2_Coachtech/assets/132903155/d145f693-4936-4702-9806-1786be7b2f75)
 
 ## ER 図
 
-![スクリーンショット 2024-02-03 192759](https://github.com/CoachtechMayu/Term2_Coachtech/assets/132903155/f8fe8a03-62f3-42ad-98ca-3825c84887f0)
+![ER_Term2](https://github.com/CoachtechMayu/Term2_Coachtech/assets/132903155/bb335fb3-a42f-4703-950d-41d57a767327)
