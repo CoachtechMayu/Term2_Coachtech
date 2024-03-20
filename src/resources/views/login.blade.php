@@ -20,12 +20,12 @@ login
         <i class="fa-solid fa-envelope"></i>
         <input type="text" name="email" placeholder="Email"><br>
             @if ($errors->has('email'))
-            <p class="vali">{{$errors->first('email')}}</p>
+            <p class="validation">{{$errors->first('email')}}</p>
             @endif
         <i class="fa-solid fa-lock"></i>
         <input type="text" name="password" placeholder="Password"><br>
             @if ($errors->has('password'))
-            <p class="vali">{{$errors->first('password')}}</p>
+            <p class="validation">{{$errors->first('password')}}</p>
             @endif
         <div class="login-btn">
             <button type="submit" class="l-btn">ログイン</button>

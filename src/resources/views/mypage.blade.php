@@ -44,7 +44,7 @@ mypage
                 <p class="shop-name">{{$shop->name}}</p>
                 <p>#{{$shop->area->name}}#{{$shop->genre->name}}</p>
                 <div class="detail-heart">
-                    <a href="{{route('shop.detail', $shop->id)}}" class="shop-d">詳しくみる</a>
+                    <a href="{{route('shop.detail', $shop->id)}}" class="shop-detail">詳しくみる</a>
                     @if($shop->likes->isEmpty())<!-- isEmpty 空判定 == true -->
                         <form action="{{route('shop.like')}}" method="GET">
                         @csrf

@@ -25,9 +25,9 @@ img {
 .back {
     text-decoration: none;
     margin-right: 6px;
-    padding: 4px;
+    padding: 10px;
     background-color: white;
-    box-shadow: 2px 2px 2px slategray;
+    box-shadow: 2px 2px 2px gray;
     border-radius: 6px;
 }
 
@@ -51,7 +51,7 @@ p {
 
 .reservation {
     border-radius: 6px;
-    background-color: #3d6af0;
+    background-color: #2958e6;
     width: 50%;
     position: relative;
 }
@@ -64,25 +64,25 @@ p {
 
 input {
     display: block;
-    margin: 6px 0 6px 10px;
+    margin: 10px;
     border-radius: 5px;
-    width: 40%;
+    width: 50%;
 }
 
 select {
     display: block;
-    margin: 6px 0 6px 10px;
+    margin: 10px;
     border-radius: 5px;
     width: 50%;
 }
 
 .reservation-info {
     width: 80%;
-    margin: 20px auto;
+    margin: 60px auto 10px;
     text-align: center;
-    border: 1px solid CornflowerBlue;
+    border: 1px solid rgb(138, 178, 251);
     border-radius: 6px;
-    background-color: CornflowerBlue;
+    background-color: rgb(138, 178, 251);
 }
 
 table th {
@@ -95,13 +95,13 @@ table td {
     color: white;
 }
 
-.r-btn {
+.reservation-btn {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.reservation-btn {
+.btn {
     cursor: pointer;
     background-color: blue;
     padding: 5px 200px 10px 200px;

@@ -36,6 +36,18 @@
     display: flex;
     flex-wrap: wrap;
 }
+.likes {
+    width: 40%;
+    border-radius: 6px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px lightslategray;
+}
+
+.detail-heart {
+    display: flex;
+    justify-content: space-between
+}
 
 .like-heart {
     background-color: transparent;
@@ -53,20 +65,9 @@
     margin: 5px 7px 10px 10px;
 }
 
-.likes {
-    width: 40%;
-    border-radius: 6px;
-    margin: 20px;
-    background-color: white;
-    box-shadow: 2px 2px 2px lightslategray;
-}
 
-.detail-heart {
-    display: flex;
-    justify-content: space-between
-}
 
-.shop-d {
+.shop-detail {
     border-radius: 5px;
     color: white;
     background-color: Blue;

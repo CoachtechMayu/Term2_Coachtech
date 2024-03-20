@@ -61,14 +61,10 @@ input {
     border-radius: 5px;
 }
 
-.vali {
+.validation {
     color: Crimson;
     font-size: 13px;
     margin-top: 3px;
-}
-
-i.mail {
-
 }
 
 @media screen and (max-width: 768px) {

@@ -15,7 +15,7 @@ register
     <div class="registration">
     <p>Registration</p>
     </div>
-    <div class="r-form">
+    <div class="regi-form">
         <form action="/register" method="POST">
         @csrf
         <i class="fa-solid fa-user"></i>
@@ -34,7 +34,7 @@ register
             <p class="validation">{{$errors->first('password')}}</p>
             @endif
         <div class="register-btn">
-            <button type="submit" class="r-btn">登録</button>
+            <button type="submit" class="regi-btn">登録</button>
         </div>
         </form>
     </div>

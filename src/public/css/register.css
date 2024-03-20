@@ -28,7 +28,7 @@ p {
     padding: 10px auto 10px 15px;
 }
 
-.r-form {
+.regi-form {
     text-align: center;
     margin-top: 10px;
 }
@@ -48,7 +48,7 @@ input {
     margin: 10px 30px 0 auto;
 }
 
-.r-btn {
+.regi-btn {
     border: 1px solid #1666e9;
     background-color: #1666e9;
     color: white;

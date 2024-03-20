@@ -72,21 +72,21 @@ shop_detail
             </tr>
             <tr>
                 <th>Date</th>
-                <td><div id="result_date"></div></td>
+                <td></td>
             </tr>
             <tr>
                 <th>Time</th>
-                <td><div id="result_time"></div></td>
+                <td></td>
             </tr>
             <tr>
                 <th>Number</th>
-                <td><div id="result_number"></div></td>
+                <td></td>
             </tr>
             </table>
         </div>
 
-        <div class="r-btn">
-            <button type="submit" class="reservation-btn">予約する</button>
+        <div class="reservation-btn">
+            <button type="submit" class="btn">予約する</button>
         </div>
         </form>
     </div>
